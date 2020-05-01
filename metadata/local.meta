@@ -1,0 +1,14 @@
+[app/ui]
+version = 8.0.0
+modtime = 1587586200.510340000
+
+[app/launcher]
+version = 8.0.0
+modtime = 1587586200.513812000
+
+[transforms/ssf_default]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.0.0
+modtime = 1587893353.336412000
