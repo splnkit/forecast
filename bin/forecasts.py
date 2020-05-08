@@ -103,7 +103,7 @@ if __name__ == "__main__":
             fit_result(result, algo_options)
 
         output_results = []
-        output_results.append({"status": "Completed Writing", "object_count": len(results), "index": target_index, "model": collection_name})
+        output_results.append({"status": "Completed Writing", "object_count": len(results), "index": algo_options["target_index"], "model": collection_name})
         si.outputResults(output_results)
 
     except Exception as e:
